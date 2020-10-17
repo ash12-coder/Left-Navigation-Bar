@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.button button{
+    position: fixed;
+    float: left;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color: orange;
+    border: none;
+    margin: 20px;
+    opacity: .8;
+    border-radius: 5px;
+    outline: none;
+    z-index:-1;
+}
+.button button span{
+    color: white;
+}
+.button button span:hover{
+    color:gray ;
+}
+.button button:active{
+    opacity: 1;
+}
+.main{
+    float: left;
+    height: 100%;
+    width:250px;
+    background-color: rgb(185, 11, 11);
+    transform: translateX(-250px);
+}
+.main button{
+    float: right;
+    height: 30px;
+    width: 40px;
+    background-color: rgb(185, 11, 11);
+    border: none;
+    outline: none;
+    color:white;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.main button:hover{
+    color: black;
+}
+.main .links{
+    float:left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.links i{
+    padding: 35px;
+    font-size: 20px;
+}
+.links i a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 1000;
+    color: gray;
+}
+.links i a:hover{
+    color: purple;
+    border-bottom: 1px inset black;
+    border-right: 1px inset black;
+}
